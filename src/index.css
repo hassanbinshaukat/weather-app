@@ -1,6 +1,36 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: lilita;
+  src: url(./assets/fonts/LilitaOne-Regular.ttf);
+}
 
+*{
+  /* margin: 0;
+  padding: 0; */
+  /* box-sizing: border-box; */
+  font-family: lilita;
+}
+
+:root {
+  background-image: linear-gradient(to right, #f3b07c, #fcd283);
+}
+
+.card-color {
+  background-image: linear-gradient(to top, #f3b07c, #fcd283);
+}
+
+.field-shape{
+  border-radius: 999px;
+}
+
+.weather-data{
+  background-color: rgba(255, 255, 255, 0.2)
+}
+
+.text-color{
+  color: #2f2e57
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -70,3 +100,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&display=swap');
