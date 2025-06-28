@@ -12,13 +12,13 @@
   font-family: lilita;
 }
 
-:root {
+/* :root {
   background-image: linear-gradient(to right, #f3b07c, #fcd283);
-}
+} */
 
-.card-color {
+/* .card-color {
   background-image: linear-gradient(to top, #f3b07c, #fcd283);
-}
+} */
 
 .field-shape{
   border-radius: 999px;
