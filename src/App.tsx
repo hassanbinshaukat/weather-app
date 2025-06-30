@@ -94,7 +94,9 @@ export default function WeatherCard() {
       location: "",
     },
   });
-  const onSubmit = (data: FormData) => console.log(data);
+  // const onSubmit = (data: FormData) => {
+  //   console.log(data);
+  // };
 
   const api_key = "1992a6630a7a766ca25b930f5f169d8c";
 
@@ -205,7 +207,7 @@ export default function WeatherCard() {
                   <p className="text-lg pl-2 text-color mt-1">{data?.name}</p>
                 </div>
 
-                <form onSubmit={handleSubmit(onSubmit)}>
+                <form onSubmit={handleSubmit(search)}>
                   <Controller
                     name="location"
                     control={control}
@@ -229,7 +231,6 @@ export default function WeatherCard() {
                               <InputAdornment position="end">
                                 <IconButton
                                   aria-label="search"
-                                  onClick={search}
                                   type="submit"
                                 >
                                   <SearchIcon />
